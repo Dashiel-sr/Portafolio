@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+header{
+  background-color: rgb(17, 15, 17);
+
+}
+header div a {
+  text-decoration: none;
+}
+header div a h1{
+  margin: 0;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 85px;
+  color: white;
+  font-weight: 500;
+}
+
+main{
+  background-color: black;
+}
+
+
+
+#info nav ul li a {
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+#info nav ul li a about{
+  color: rgb(88, 86, 90);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+#info nav ul li {
+  display:grid;
+  display:flex;
+  align-items: center;
+  padding: 0 155px;
+}
+
+#info nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#banner {
+  
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 150px;
+  align-items: center;
+  justify-content: center;
+}
+#banner div img {
+  margin-right: 100px;
+  width: 350px;
+  
+}
+
+.banner-content {
+  margin-left: 100px;
+  display: flex;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  
+}
+
+#redes {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#redes nav ul li {
+  padding: 0 30px;
+  padding-inline-start: 0%;
+}
+
+#redes nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#redes nav ul li a img {
+  width: 45px;
+}
+
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0px;
+  margin: 0px;
+}
+
+footer div p {
+  text-align: center;
+}
